@@ -10,7 +10,7 @@ import numpy as np
 import folium
 import streamlist as st
 
-full_data=pd.read_csv('/Users/manaskaushik/Documents/OpiodTreat/full_data.csv')
+full_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/full_data.csv')
 
 m = folium.Map(location=[48, -102], zoom_start=3)
 for x in range(len(full_data)):
