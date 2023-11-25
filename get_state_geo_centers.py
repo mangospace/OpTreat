@@ -23,12 +23,12 @@ for x in range(len(daf)):
         daf.loc[x, 'lat']=round(float(re.sub('\ufeff','',daf.loc[x, 1])),0)*-1
 
 
-    if re.findall('°W',daf.loc[x,2]):
-        daf.loc[x, 2]=re.sub('°W' ,'' ,daf.loc[x, 2])       
-        daf.loc[x, 'lon']=int(round(float(re.sub('\ufeff','',daf.loc[x, 2])),0))
-
     if re.findall('°E',daf.loc[x,2]):
         daf.loc[x, 2]=re.sub('°E' ,'' ,daf.loc[x, 2])       
+        daf.loc[x, 'lon']=int(round(float(re.sub('\ufeff','',daf.loc[x, 2])),0))
+
+    if re.findall('°W',daf.loc[x,2]):
+        daf.loc[x, 2]=re.sub('°W' ,'' ,daf.loc[x, 2])       
         daf.loc[x, 'lon']=round(float(re.sub('\ufeff','',daf.loc[x, 2])),0)*-1
 
 

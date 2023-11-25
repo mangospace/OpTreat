@@ -35,10 +35,17 @@ m
 #st_data = st_folium(m, width=725)
 """
 option1="AL"
+state_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/state_center.csv')
+state_data=state_data[state_data["STATE"]==option1]
+state_data=state_data.reset_index(drop=True)
+long=state_data.loc[0,'lon']
+latt=state_data.loc[0,'lat']
+
 full_data1=full_data[full_data['STATE']==option1]
 full_data1=full_data1.reset_index(drop=True)
 full_data1
-m = folium.Map(location=[48, -102], zoom_start=3)
+#m = folium.Map(location=[long, latt], zoom_start=4)
+m = folium.Map(location=[32, -86], zoom_start=6)
 for x in range(len(full_data1)):
     folium.Marker(
         location=[full_data1.loc[x,'lat'],full_data1.loc[x,'lon']],
@@ -47,5 +54,4 @@ for x in range(len(full_data1)):
         icon=folium.Icon(color="green"),
     ).add_to(m)
 m
-st_data = st_folium(m, width=725)
-""""""
+#st_data = st_folium(m, width=725)

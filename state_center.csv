@@ -1,52 +1,52 @@
 ,lat,lon,State or federal district,STATE
-0,33.0,87.0,Alabama,AL
-1,64.0,152.0,Alaska,AK
-2,34.0,112.0,Arizona,AZ
-3,35.0,92.0,Arkansas,AR
-4,37.0,119.0,California,CA
-5,39.0,106.0,Colorado,CO
-6,42.0,73.0,Connecticut,CT
-7,39.0,76.0,Delaware,DE
-8,39.0,77.0,District of Columbia,DC
-9,29.0,82.0,Florida,FL
-10,33.0,83.0,Georgia,GA
-11,20.0,156.0,Hawaii,HI
-12,44.0,115.0,Idaho,ID
-13,40.0,89.0,Illinois,IL
-14,40.0,86.0,Indiana,IN
-15,42.0,93.0,Iowa,IA
-16,38.0,98.0,Kansas,KS
-17,38.0,85.0,Kentucky,KY
-18,31.0,92.0,Louisiana,LA
-19,45.0,69.0,Maine,ME
-20,39.0,77.0,Maryland,MD
-21,42.0,72.0,Massachusetts,MA
-22,44.0,85.0,Michigan,MI
-23,46.0,94.0,Minnesota,MN
-24,33.0,90.0,Mississippi,MS
-25,38.0,92.0,Missouri,MO
-26,47.0,110.0,Montana,MT
-27,42.0,100.0,Nebraska,NE
-28,39.0,117.0,Nevada,NV
-29,44.0,72.0,New Hampshire,NH
-30,40.0,75.0,New Jersey,NJ
-31,34.0,106.0,New Mexico,NM
-32,43.0,76.0,New York,NY
-33,36.0,79.0,North Carolina,NC
-34,47.0,100.0,North Dakota,ND
-35,40.0,83.0,Ohio,OH
-36,36.0,97.0,Oklahoma,OK
-37,44.0,121.0,Oregon,OR
-38,41.0,78.0,Pennsylvania,PA
-39,42.0,72.0,Rhode Island,RI
-40,34.0,81.0,South Carolina,SC
-41,44.0,100.0,South Dakota,SD
-42,36.0,86.0,Tennessee,TN
-43,31.0,99.0,Texas,TX
-44,39.0,112.0,Utah,UT
-45,44.0,73.0,Vermont,VT
-46,38.0,79.0,Virginia,VA
-47,47.0,120.0,Washington,WA
-48,39.0,81.0,West Virginia,WV
-49,45.0,90.0,Wisconsin,WI
-50,43.0,108.0,Wyoming,WY
+0,33.0,-87.0,Alabama,AL
+1,64.0,-152.0,Alaska,AK
+2,34.0,-112.0,Arizona,AZ
+3,35.0,-92.0,Arkansas,AR
+4,37.0,-119.0,California,CA
+5,39.0,-106.0,Colorado,CO
+6,42.0,-73.0,Connecticut,CT
+7,39.0,-76.0,Delaware,DE
+8,39.0,-77.0,District of Columbia,DC
+9,29.0,-82.0,Florida,FL
+10,33.0,-83.0,Georgia,GA
+11,20.0,-156.0,Hawaii,HI
+12,44.0,-115.0,Idaho,ID
+13,40.0,-89.0,Illinois,IL
+14,40.0,-86.0,Indiana,IN
+15,42.0,-93.0,Iowa,IA
+16,38.0,-98.0,Kansas,KS
+17,38.0,-85.0,Kentucky,KY
+18,31.0,-92.0,Louisiana,LA
+19,45.0,-69.0,Maine,ME
+20,39.0,-77.0,Maryland,MD
+21,42.0,-72.0,Massachusetts,MA
+22,44.0,-85.0,Michigan,MI
+23,46.0,-94.0,Minnesota,MN
+24,33.0,-90.0,Mississippi,MS
+25,38.0,-92.0,Missouri,MO
+26,47.0,-110.0,Montana,MT
+27,42.0,-100.0,Nebraska,NE
+28,39.0,-117.0,Nevada,NV
+29,44.0,-72.0,New Hampshire,NH
+30,40.0,-75.0,New Jersey,NJ
+31,34.0,-106.0,New Mexico,NM
+32,43.0,-76.0,New York,NY
+33,36.0,-79.0,North Carolina,NC
+34,47.0,-100.0,North Dakota,ND
+35,40.0,-83.0,Ohio,OH
+36,36.0,-97.0,Oklahoma,OK
+37,44.0,-121.0,Oregon,OR
+38,41.0,-78.0,Pennsylvania,PA
+39,42.0,-72.0,Rhode Island,RI
+40,34.0,-81.0,South Carolina,SC
+41,44.0,-100.0,South Dakota,SD
+42,36.0,-86.0,Tennessee,TN
+43,31.0,-99.0,Texas,TX
+44,39.0,-112.0,Utah,UT
+45,44.0,-73.0,Vermont,VT
+46,38.0,-79.0,Virginia,VA
+47,47.0,-120.0,Washington,WA
+48,39.0,-81.0,West Virginia,WV
+49,45.0,-90.0,Wisconsin,WI
+50,43.0,-108.0,Wyoming,WY
