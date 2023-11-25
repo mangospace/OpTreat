@@ -15,11 +15,13 @@ from streamlit_folium import st_folium
 full_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/full_data.csv')
 full_data=full_data.dropna()
 full_data=full_data.reset_index(drop=True)
+fd=pd.read_csv('/Users/manaskaushik/Documents/OpiodTreat/suppl.csv')
+full_data=pd.concat([full_data, fd])
 statelist=full_data['STATE'].tolist()
 
 st.title('Opiod Treatment Centers')
 st.caption("Oct 2023")
-st.caption('Made with \u2764\uFE0F @manas8u in Python and Streamlit')
+st.caption('Made by @manas8u')
 st.caption('Please share your feedback and suggestions. DM @manas8u')
 
 #option1 = st.selectbox(
