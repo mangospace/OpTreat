@@ -15,7 +15,7 @@ from streamlit_folium import st_folium
 full_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/full_data.csv')
 full_data=full_data.dropna()
 full_data=full_data.reset_index(drop=True)
-fd=pd.read_csv('/Users/manaskaushik/Documents/OpiodTreat/suppl.csv')
+fd=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/suppl.csv')
 full_data=pd.concat([full_data, fd])
 statelist=full_data['STATE'].tolist()
 
