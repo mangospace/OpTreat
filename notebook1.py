@@ -38,6 +38,8 @@ option1="AL"
 state_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/state_center.csv')
 state_data=state_data[state_data["STATE"]==option1]
 state_data=state_data.reset_index(drop=True)
+state_data
+
 long=state_data.loc[0,'lon']
 latt=state_data.loc[0,'lat']
 

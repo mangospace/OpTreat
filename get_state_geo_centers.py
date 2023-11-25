@@ -33,6 +33,7 @@ for x in range(len(daf)):
 
 
 daf=daf[['lat','lon']]
+daf
 
 daf=pd.merge(daf, df, left_index=True, right_index=True, how="outer")
 
