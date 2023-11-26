@@ -1,0 +1,6 @@
+streamlit==1.28.0
+numpy==1.23.5
+plotly==5.9.0
+pandas==1.5.2
+regex==2022.7.9
+streamlit-analytics
