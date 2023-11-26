@@ -10,15 +10,14 @@ from streamlit_folium import st_folium
 
 full_data=pd.read_csv('https://raw.githubusercontent.com/mangospace/OpTreat/main/oct_data.csv')
 full_data.reset_index(drop=True)
-
 statelist=full_data['STATE'].tolist()
+statelist.insert(0, "US")
 
 st.title('Opiod Treatment Centers')
 st.caption("Oct 2023")
 st.caption('Made by @manas8u')
 st.caption('Please share your feedback and suggestions. DM @manas8u')
 
-statelist.insert(0, "US")
 option1 = st.selectbox(
     'Which state would you like to explore in detail?',
     (statelist))
@@ -31,7 +30,6 @@ df2 = pd.DataFrame({"lat":[48],
 state_data=pd.concat([state_data,df2])
 state_data=state_data[state_data["STATE"]==option1]
 state_data=state_data.reset_index(drop=True)
-
 long=state_data.loc[0,'lon']
 latt=state_data.loc[0,'lat']
 
