@@ -5,6 +5,8 @@ import regex as re
 url = 'https://en.wikipedia.org/wiki/List_of_geographic_centers_of_the_United_States'
 html = requests.get(url).content
 df_list = pd.read_html(html)
+
+df_list[2]['Coordinates']
 df = df_list[1]
 df
 
@@ -54,4 +56,9 @@ df4=df4.reset_index(drop=True)
 daf1=pd.merge(daf, df4, left_on='State or federal district', right_on="State or federal district", how="outer")
 daf1=daf1.drop(columns=['Location','Coordinates'])
 daf1=daf1.dropna(subset=['lat','lon'])
+df2 = pd.DataFrame({"lat":[18],
+                    "lon":[-66],
+                    "State or federal district":["Puerto Rico"],
+                    "STATE":["PR"]})
+daf1=pd.concat([daf1,df2]) 
 daf1.to_csv(r"D:\Data\OpTreat\state_center.csv")
